@@ -100,6 +100,4 @@ The loss is defined as:
 
 $$ 
 \text{loss} = 1 - \left(\frac{\text{notes in scale}}{\text{total notes}}\right)
-
 $$
----
