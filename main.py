@@ -9,8 +9,7 @@ import torch.nn as nn
 # ======================
 # ARGUMENTS
 # ======================
-# python joseexec.py instancia.mid seed sigma N
-instancia_path = "instances/"+sys.argv[1]
+instancia_path = sys.argv[1]
 seed = int(sys.argv[2])
 sigma = float(sys.argv[3])
 N = int(sys.argv[4])
@@ -164,7 +163,6 @@ input_tokens = [
     id_to_token[t] for t in x_tokens
     if id_to_token[t] not in ["<sos>", "<eos>", "<pad>"]
 ]
-print("Input tokens:", input_tokens)
 with torch.no_grad():
     mu, logvar = model.encode(x)
     std = torch.exp(0.5 * logvar)
@@ -195,5 +193,4 @@ with torch.no_grad():
 # ======================
 # OUTPUT
 # ======================
-print("Best tokens:", best_tokens)
 print(float(best_score))
