@@ -1,0 +1,10 @@
+extensión filter=lfs diff=lfs merge=lfs -text
+de filter=lfs diff=lfs merge=lfs -text
+grandes filter=lfs diff=lfs merge=lfs -text
+\# filter=lfs diff=lfs merge=lfs -text
+*.ext filter=lfs diff=lfs merge=lfs -text
+por filter=lfs diff=lfs merge=lfs -text
+la filter=lfs diff=lfs merge=lfs -text
+archivos filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+reemplaza filter=lfs diff=lfs merge=lfs -text
