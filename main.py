@@ -83,7 +83,7 @@ with open("id_to_token_train.pkl", "rb") as f:
     id_to_token = pickle.load(f)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-vocab_size = 456
+vocab_size = 83
 model = CVAE_LSTM(
     input_dim=32,
     hidden_dim=64,
@@ -94,7 +94,7 @@ model = CVAE_LSTM(
     vocab_size=vocab_size,
 ).to(device)
 
-state = torch.load("cvae_lstm_model.pth", map_location="cpu", weights_only=True)
+state = torch.load("cvae_lstm_fulltrained_20260126_235953.pth", map_location="cpu", weights_only=True)
 model.load_state_dict(state)
 model.eval()
 
