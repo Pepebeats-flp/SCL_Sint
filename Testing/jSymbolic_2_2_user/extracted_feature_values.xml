@@ -1,0 +1,3091 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.54_N15_20260128_152512/1_CVAE_seed279_sigma2.54_N15_20260128_152512.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>1.852E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>3.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>2.5E-1</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>1E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.54_N15_20260128_152512/4_CVAE_seed279_sigma2.54_N15_20260128_152512.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3.25E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>4.333E-1</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3.25E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>4.333E-1</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>6E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>6.667E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>6.667E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>6.667E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>6.667E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>2.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>2.5E-1</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>5E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.54_N15_20260128_152512/6_CVAE_seed279_sigma2.54_N15_20260128_152512.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3.25E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>4.333E-1</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3.25E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>4.333E-1</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>6E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>6.667E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>6.667E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>6.667E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>6.667E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>2.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>2.5E-1</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>5E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.54_N15_20260128_152512/3_CVAE_seed279_sigma2.54_N15_20260128_152512.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.54_N15_20260128_152512/2_CVAE_seed279_sigma2.54_N15_20260128_152512.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>6.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>0E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.54_N15_20260128_152512/5_CVAE_seed279_sigma2.54_N15_20260128_152512.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.83_N40_20260128_152513/1_CVAE_seed279_sigma2.83_N40_20260128_152513.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>1.852E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>3.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>2.5E-1</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>1E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.83_N40_20260128_152513/4_CVAE_seed279_sigma2.83_N40_20260128_152513.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>1.852E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>3.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>2.5E-1</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>1E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.83_N40_20260128_152513/6_CVAE_seed279_sigma2.83_N40_20260128_152513.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.83_N40_20260128_152513/3_CVAE_seed279_sigma2.83_N40_20260128_152513.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>6.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>0E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.83_N40_20260128_152513/2_CVAE_seed279_sigma2.83_N40_20260128_152513.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.83_N40_20260128_152513/5_CVAE_seed279_sigma2.83_N40_20260128_152513.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.82_N40_20260128_152514/2_CVAE_seed279_sigma2.82_N40_20260128_152514.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.82_N40_20260128_152514/5_CVAE_seed279_sigma2.82_N40_20260128_152514.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.82_N40_20260128_152514/1_CVAE_seed279_sigma2.82_N40_20260128_152514.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>1.852E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>3.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>2.5E-1</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>1E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.82_N40_20260128_152514/4_CVAE_seed279_sigma2.82_N40_20260128_152514.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>1.852E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>3.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>2.5E-1</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>1E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.82_N40_20260128_152514/6_CVAE_seed279_sigma2.82_N40_20260128_152514.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.82_N40_20260128_152514/3_CVAE_seed279_sigma2.82_N40_20260128_152514.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>6.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>0E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.81_N40_20260128_152515/5_CVAE_seed279_sigma2.81_N40_20260128_152515.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.81_N40_20260128_152515/2_CVAE_seed279_sigma2.81_N40_20260128_152515.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.81_N40_20260128_152515/3_CVAE_seed279_sigma2.81_N40_20260128_152515.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>6.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>0E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.81_N40_20260128_152515/6_CVAE_seed279_sigma2.81_N40_20260128_152515.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.81_N40_20260128_152515/4_CVAE_seed279_sigma2.81_N40_20260128_152515.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>1.852E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>3.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>2.5E-1</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>1E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Sint/midi_generados/MIDI_TEST_seed279_sigma2.81_N40_20260128_152515/1_CVAE_seed279_sigma2.81_N40_20260128_152515.mid</data_set_id>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>1.225E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>1.852E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>1.481E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>3.704E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.963E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>3.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>7.5E-1</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>2.5E-1</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>1E0</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>

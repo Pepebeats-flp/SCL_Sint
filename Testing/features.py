@@ -4,7 +4,7 @@ import os
 # ======================
 # CONFIG
 # ======================
-CSV_PATH = "rvae3.csv"
+CSV_PATH = "sint1.csv"
 
 # ======================
 # LOAD CSV
